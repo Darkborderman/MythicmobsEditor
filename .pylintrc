@@ -1,0 +1,9 @@
+[MESSAGES CONTROL]
+# C0111: missing-docstring
+# R0903: too-few-public-methods
+# R0201: Method could be a function
+# fixme: ignore TODO
+disable=C0111, R0903, R0201, W0703, bad-continuation, fixme
+
+# whitelist module since pylint doesn't load any C extensions
+extension-pkg-whitelist=PyQt5

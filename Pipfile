@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "==3.8.3"
+black = "==19.3b0"
+pylint = "==2.5.3"
+isort = "==4.2.5"
+
+[packages]
+pyqt5 = "==5.15.0"
+pyyaml = "==5.3.1"
+loguru = "==0.5.1"
+pyinstaller = "==3.6"
+python-i18n = "==0.3.7"
+
+[requires]
+python_version = "3.7"
